@@ -1,0 +1,123 @@
+{
+  "template": "wine-ribbon",
+  "basics": {
+    "name": "苏清禾",
+    "photo": "assets/photos/placeholder.jpg",
+    "fields": [
+      { "icon": "▪", "label": "年龄", "value": "22岁" },
+      { "icon": "▪", "label": "性别", "value": "女" },
+      { "icon": "▪", "label": "籍贯", "value": "浙江温州" },
+      { "icon": "▪", "label": "求职意向", "value": "建筑设计师" },
+      { "icon": "▪", "label": "电话", "value": "139 0000 0000" },
+      { "icon": "▪", "label": "邮箱", "value": "suqinghe@example.com" }
+    ],
+    "sideSections": [
+      {
+        "title": "技能特长",
+        "style": "bars",
+        "bars": [
+          { "label": "计算机：", "level": "精通", "percent": 0.92 },
+          { "label": "英语：", "level": "熟练", "percent": 0.62 },
+          { "label": "数据分析：", "level": "擅长", "percent": 0.54 },
+          { "label": "摄影：", "level": "擅长", "percent": 0.52 },
+          { "label": "平面设计：", "level": "熟练", "percent": 0.58 },
+          { "label": "手工模型：", "level": "熟练", "percent": 0.52 },
+          { "label": "Office软件：", "level": "精通", "percent": 0.88 },
+          { "label": "口才：", "level": "精通", "percent": 0.86 }
+        ]
+      },
+      {
+        "title": "能力雷达",
+        "style": "radar",
+        "radar": [
+          { "label": "数理逻辑", "value": 0.78 },
+          { "label": "言语理解", "value": 0.62 },
+          { "label": "资料分析", "value": 0.72 },
+          { "label": "统筹领导", "value": 0.66 },
+          { "label": "艺术绘画", "value": 0.70 },
+          { "label": "人文社科", "value": 0.60 },
+          { "label": "思政素养", "value": 0.64 },
+          { "label": "专业素养", "value": 0.82 }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "education",
+      "title": "教育背景",
+      "items": [
+        {
+          "period": "",
+          "org": "华东交通大学",
+          "major": "建筑学（本科）",
+          "lines": [
+            { "label": "专业成绩", "text": "GPA 3.53/4.5（专业前30%）" },
+            { "label": "主修课程", "text": "建筑设计、建筑力学、建筑物理、建筑材料、建筑构造、绿色建筑、建筑设备、中外建筑史、等课程。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "title": "实习经历",
+      "items": [
+        {
+          "org": "浙江大学建筑设计院",
+          "role": "实习生",
+          "blocks": [
+            { "label": "项目参与", "text": "深度跟进2个地方政府行政配套建筑优化项目，涉及约8000㎡建筑空间的功能迭代与流线重构；" },
+            { "label": "工作内容", "text": "完成项目前期定位策划文本（含3类客群需求调研、5版功能布局草案）" },
+            { "label": "能力提升", "text": "独立搭建1:100场地三维模型，通过20+组日照模拟、3轮人流密度数据分析，掌握建筑全流程逻辑，参数化建模效率提升40%" }
+          ]
+        },
+        {
+          "org": "杰地设计集团有限公司",
+          "role": "实习生",
+          "blocks": [
+            { "label": "项目参与", "text": "参与2个总建面约12万㎡的商业综合体（含3万㎡裙房商业）+6万㎡高端住宅项目的设计全周期；" },
+            { "label": "工作内容", "text": "协助完成5份基地现状分析报告（涵盖10km范围内竞品调研、3类业态客群画像）；" },
+            { "label": "能力提升", "text": "熟练掌握商住项目设计要点，问题解决响应速度提升30%" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "title": "校园经历",
+      "items": [
+        {
+          "org": "建筑系学生作品展",
+          "role": "主要负责人",
+          "blocks": [
+            { "label": "工作内容", "text": "征集52份课程设计图纸、23个实体模型，完成100+份作品介绍牌文案（单页控制在200字样内）；" },
+            { "label": "实践收获", "text": "实现作品展3天内接待观展人数超300人次，通过统筹工作，组织效率提升25%，对“设计落地呈现”的认知维度覆盖到空间、受众、传播3个层面。" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "awards",
+      "title": "竞赛荣誉",
+      "items": [
+        { "year": "2024年 ", "name": "第九届米兰设计周中国高校设计江西赛区", "level": "省部级", "award": "三等奖", "team": "1/3" },
+        { "year": "2025年 ", "name": "十六届蓝桥杯视觉艺术设计赛", "level": "省部级", "award": "三等奖", "team": "1/3" },
+        { "year": "2025年 ", "name": "十六届蓝桥杯视觉艺术设计赛", "level": "省部级", "award": "二等奖", "team": "2/2" },
+        { "year": "2025年 ", "name": "第十三届全国大学生数字媒体创意竞赛", "level": "国家级", "award": "二等奖", "team": "3/3", "highlight": true }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "技能特长",
+      "paragraphs": [
+        "**计算机：**计算机二级证书，熟练操作建筑行业大部分建模软件与程序。",
+        "建模软件中，熟练掌握：SU、Rhino、Revit、Blender、3Dmax",
+        "渲染软件中，熟练掌握：D5、Vary、Enscape",
+        "数据分析中，精通Tableau、Origin、midjourney",
+        "平面设计中，精通PS、AI、ID",
+        "**语言能力：**大学英语6级证书，能够熟练的进行交流、读写。",
+        "自学韩语并考取TOPIK4级，可以进行日常基本交流"
+      ]
+    }
+  ]
+}

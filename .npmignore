@@ -1,0 +1,7 @@
+# 发布时不该进包的东西（`files` 白名单之外的兜底）
+__pycache__/
+*.pyc
+*.spec.json
+out/
+.npm-cache/
+*.tgz

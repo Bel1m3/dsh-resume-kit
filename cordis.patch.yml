@@ -1,0 +1,6 @@
+# dsh bundle patch：把简历插件插入 profile 的插件层。
+# 这里的 name 必须与 package.json 的 name 完全一致，否则装载器会去解析另一个包。
+# python / officeCli 可留空，插件会自动从 DSH 安装目录推断。
+- insert:
+    - id: dsh-resume
+      name: 'dsh-resume-kit'

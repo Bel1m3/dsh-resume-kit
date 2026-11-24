@@ -1,0 +1,4 @@
+﻿out/
+*.spec.json
+__pycache__/
+.npm-cache/

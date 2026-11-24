@@ -1,0 +1,65 @@
+{
+  "name": "dsh-resume-kit",
+  "version": "0.3.0",
+  "description": "三套固定版式的简历渲染插件（深灰蓝双栏 / 酒红绶带 / 单栏 ATS）：按成品模板还原排版，输出可编辑 Word + PDF，缺项先追问，单栏超一页自动微缩。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "resume",
+    "cv",
+    "ats",
+    "docx",
+    "word"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "engine/build_resume.py",
+    "engine/layout_wine.py",
+    "engine/layout_ats.py",
+    "engine/radar.py",
+    "engine/spec.md",
+    "templates",
+    "examples",
+    "assets/photos/placeholder.jpg",
+    "docs",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node tools/plugin-smoke.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bel1m3/dsh-resume-kit.git"
+  },
+  "homepage": "https://github.com/Bel1m3/dsh-resume-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Bel1m3/dsh-resume-kit/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "manifestVersion": 1
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  }
+}
