@@ -91,7 +91,7 @@ resume_generate({
 ## 目录结构
 
 ```
-dsh-resume/
+dsh-resume-kit/
 ├── lib/
 │   ├── index.js          插件宿主：注册三个工具、探测 python 与 LibreOffice
 │   └── intake.js         缺项体检规则（每版式一份）
@@ -103,9 +103,7 @@ dsh-resume/
 │   └── spec.md           数据规格 v2
 ├── templates/index.json  版式元数据
 ├── examples/             可直接跑的样例数据（同一份数据可换三种版式渲染）
-├── assets/
-│   ├── source/           用户提供的原始模板 PDF
-│   └── photos/           样例照片（占位头像，不含真人）
+├── assets/photos/        占位头像（不含任何真人照片）
 ├── scripts/              安装 / 卸载（BOM 安全 + 写后校验）
 ├── tools/plugin-smoke.mjs 冒烟测试（不启 DSH，走桩 ctx）
 └── docs/                 预览图
@@ -150,6 +148,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\uninstall-plugin.p
 
 ## 下一步
 
-- 加 1 套**单栏 ATS 友好**版式（给国企网申 / 大厂机器筛选）
+- 生成后顺手出 PNG 预览，直接在对话里看到成品
 - `resume_review`：拿 JD 和现有简历做匹配度打分，指出缺口
 - 一岗一版：同一份经历按不同 JD 生成多个版本
